@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SJGradientLabel_Tests' do
+  pod 'SJGradientLabel', :path => '../'
+  
+  
+end
