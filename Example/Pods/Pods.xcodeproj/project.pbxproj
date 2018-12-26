@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B4CA5B8B44D0A4F2B5024EB5502638A /* Pods-SJGradientLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E86D0EDEBE4B3454991CB4AE42B66079 /* Pods-SJGradientLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17704B2B88228BB3E54A38248C728AB7 /* Pods-SJGradientLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0F053A91A9DCECC448AC9ABBDED4A47 /* Pods-SJGradientLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37DEEFF4EDFCAB2E386616CEBA36D0C9 /* Pods-SJGradientLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9C537FA4E48996CE67665C37283452 /* Pods-SJGradientLabel_Example-dummy.m */; };
+		500EA30BFBC4914E2279F4F20F5D1D79 /* SJGradientLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5939201042EC473CE1895CC293086780 /* SJGradientLabel.m */; };
+		60180A3178D0527E0A8BB33A6BA1B4E9 /* Pods-SJGradientLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B9BDA65AEA01CFBF55BFFED10E0755 /* Pods-SJGradientLabel_Tests-dummy.m */; };
+		6F576AD1069669816BED8A5B6080DFFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		759E86B025036203A5F7665212DBB419 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		761A6EEE244B9F7C64B30F51E3D4354C /* SJGradientLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7870C812B7BB9418471329F5C7420D97 /* SJGradientLabel-dummy.m */; };
+		938D5F367EBAD73A5BA931B018B89848 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E5B31C2C39D50241F395240F9FEAA5C8 /* SJGradientLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4B008A0F0B957231F5F096594A3131 /* SJGradientLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3B6B7105D7E0DD4ACB603405B8DFB46 /* SJGradientLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C4AEF786B77779EEE25ED592A970FC0 /* SJGradientLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63C3211B9364EE7851B4877DD5082EB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63FACC05ACB73EBA4E9781B9F4DA1077;
+			remoteInfo = "Pods-SJGradientLabel_Example";
+		};
+		69F2B65E922A5CF7035AA6CA04B888DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE0FEEF213C8C835A17C5EA56D9A3978;
+			remoteInfo = SJGradientLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		075ACC5485DE19008B93BC01BFDCB4F1 /* SJGradientLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SJGradientLabel.xcconfig; sourceTree = "<group>"; };
+		0F00781AEF2C789B4387E423E7F977E2 /* Pods-SJGradientLabel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SJGradientLabel_Tests-resources.sh"; sourceTree = "<group>"; };
+		1A233F1C45D061C7BE9A0D6730AC92E0 /* Pods-SJGradientLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SJGradientLabel_Tests.modulemap"; sourceTree = "<group>"; };
+		1F5DC0E8B195ECB5AEB6D37B17423324 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FCC5AACFFB29FE3C0A6DE8DE45F04E0 /* Pods-SJGradientLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SJGradientLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		26B45B23C8662652C972283C29E9B106 /* Pods-SJGradientLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SJGradientLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2D390E8F543ADD9CCE2606F0E1717415 /* SJGradientLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SJGradientLabel-prefix.pch"; sourceTree = "<group>"; };
+		3C4AEF786B77779EEE25ED592A970FC0 /* SJGradientLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SJGradientLabel-umbrella.h"; sourceTree = "<group>"; };
+		3FF7DEBE4B4F9E97913E7C00B3BF3950 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5779D69A9897C9E24D431DE07B044881 /* Pods-SJGradientLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SJGradientLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		58539A5D4B99F7481663FB2FAEF2B5F2 /* Pods-SJGradientLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SJGradientLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5939201042EC473CE1895CC293086780 /* SJGradientLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SJGradientLabel.m; path = SJGradientLabel/Classes/SJGradientLabel.m; sourceTree = "<group>"; };
+		5A0567B425295871EB52B843A9FCBCFD /* Pods-SJGradientLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SJGradientLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5C7BA4F1D497EA132C3CB7699A8DC95D /* Pods-SJGradientLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SJGradientLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6165FD97204ECC5437720893F5CEE528 /* Pods-SJGradientLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SJGradientLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		640AB100222A97D02A37262CFBC9689F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64B9BDA65AEA01CFBF55BFFED10E0755 /* Pods-SJGradientLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SJGradientLabel_Tests-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6659FBF1A89FD49D3E91B34587086D0E /* SJGradientLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SJGradientLabel.framework; path = SJGradientLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6959544495B14C4D943D7B2A364DB7D6 /* Pods_SJGradientLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SJGradientLabel_Tests.framework; path = "Pods-SJGradientLabel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CDDDFD8DF488D0814F9A8C1E732B071 /* Pods-SJGradientLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SJGradientLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6DCAE133099D5ACB9DBD10960A22BD7A /* SJGradientLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SJGradientLabel.modulemap; sourceTree = "<group>"; };
+		7870C812B7BB9418471329F5C7420D97 /* SJGradientLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SJGradientLabel-dummy.m"; sourceTree = "<group>"; };
+		7D4B008A0F0B957231F5F096594A3131 /* SJGradientLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SJGradientLabel.h; path = SJGradientLabel/Classes/SJGradientLabel.h; sourceTree = "<group>"; };
+		89C3913B69F2B26189B0088970C4E4E2 /* Pods-SJGradientLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SJGradientLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		90720951D3FBF739F9234E756A0266C0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B9C537FA4E48996CE67665C37283452 /* Pods-SJGradientLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SJGradientLabel_Example-dummy.m"; sourceTree = "<group>"; };
+		B62230FA5C42D4297C214978EB7DE87B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9FBA08195FCB23D865B0C673F65343E /* Pods-SJGradientLabel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SJGradientLabel_Example-resources.sh"; sourceTree = "<group>"; };
+		DA8B864C1C50C6B21365FF030AAC85CF /* Pods_SJGradientLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SJGradientLabel_Example.framework; path = "Pods-SJGradientLabel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2EA0B1408CEB7DD0E4BF50494C7044 /* SJGradientLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SJGradientLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E774B1A92A41541759AFBBAFAB2A3CE0 /* Pods-SJGradientLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SJGradientLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E86D0EDEBE4B3454991CB4AE42B66079 /* Pods-SJGradientLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SJGradientLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F0F053A91A9DCECC448AC9ABBDED4A47 /* Pods-SJGradientLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SJGradientLabel_Example-umbrella.h"; sourceTree = "<group>"; };
+		F33E656F29B97F92E675C3E797E0D280 /* Pods-SJGradientLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SJGradientLabel_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02622A896B1AEEBE2D5B40A146715A82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F576AD1069669816BED8A5B6080DFFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C590826BF7EA7AC29B0CC2AB2D59B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759E86B025036203A5F7665212DBB419 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3AD4292FDEDEF051F2591A37F00CA13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938D5F367EBAD73A5BA931B018B89848 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27DE5C3B766C15E26389481E5B455D60 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				90720951D3FBF739F9234E756A0266C0 /* LICENSE */,
+				3FF7DEBE4B4F9E97913E7C00B3BF3950 /* README.md */,
+				DC2EA0B1408CEB7DD0E4BF50494C7044 /* SJGradientLabel.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		303FC394DE70B69E2C1C94DC14263BDF /* Pods-SJGradientLabel_Example */ = {
+			isa = PBXGroup;
+			children = (
+				640AB100222A97D02A37262CFBC9689F /* Info.plist */,
+				F33E656F29B97F92E675C3E797E0D280 /* Pods-SJGradientLabel_Example.modulemap */,
+				5A0567B425295871EB52B843A9FCBCFD /* Pods-SJGradientLabel_Example-acknowledgements.markdown */,
+				5C7BA4F1D497EA132C3CB7699A8DC95D /* Pods-SJGradientLabel_Example-acknowledgements.plist */,
+				9B9C537FA4E48996CE67665C37283452 /* Pods-SJGradientLabel_Example-dummy.m */,
+				6165FD97204ECC5437720893F5CEE528 /* Pods-SJGradientLabel_Example-frameworks.sh */,
+				D9FBA08195FCB23D865B0C673F65343E /* Pods-SJGradientLabel_Example-resources.sh */,
+				F0F053A91A9DCECC448AC9ABBDED4A47 /* Pods-SJGradientLabel_Example-umbrella.h */,
+				6CDDDFD8DF488D0814F9A8C1E732B071 /* Pods-SJGradientLabel_Example.debug.xcconfig */,
+				26B45B23C8662652C972283C29E9B106 /* Pods-SJGradientLabel_Example.release.xcconfig */,
+			);
+			name = "Pods-SJGradientLabel_Example";
+			path = "Target Support Files/Pods-SJGradientLabel_Example";
+			sourceTree = "<group>";
+		};
+		5F4BFCF75BCCFDE9C869E53BFE64C7BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA8B864C1C50C6B21365FF030AAC85CF /* Pods_SJGradientLabel_Example.framework */,
+				6959544495B14C4D943D7B2A364DB7D6 /* Pods_SJGradientLabel_Tests.framework */,
+				6659FBF1A89FD49D3E91B34587086D0E /* SJGradientLabel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6035E816C75427E7AF1AC67547E7748F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				303FC394DE70B69E2C1C94DC14263BDF /* Pods-SJGradientLabel_Example */,
+				752E5D79881AABF950247E97F96A5556 /* Pods-SJGradientLabel_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		604FEFA079DAA5F556447563B94335CA /* SJGradientLabel */ = {
+			isa = PBXGroup;
+			children = (
+				7D4B008A0F0B957231F5F096594A3131 /* SJGradientLabel.h */,
+				5939201042EC473CE1895CC293086780 /* SJGradientLabel.m */,
+				27DE5C3B766C15E26389481E5B455D60 /* Pod */,
+				CEDD4DF8E6EB99731599AAF3EF921E45 /* Support Files */,
+			);
+			name = SJGradientLabel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		752E5D79881AABF950247E97F96A5556 /* Pods-SJGradientLabel_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B62230FA5C42D4297C214978EB7DE87B /* Info.plist */,
+				1A233F1C45D061C7BE9A0D6730AC92E0 /* Pods-SJGradientLabel_Tests.modulemap */,
+				E774B1A92A41541759AFBBAFAB2A3CE0 /* Pods-SJGradientLabel_Tests-acknowledgements.markdown */,
+				58539A5D4B99F7481663FB2FAEF2B5F2 /* Pods-SJGradientLabel_Tests-acknowledgements.plist */,
+				64B9BDA65AEA01CFBF55BFFED10E0755 /* Pods-SJGradientLabel_Tests-dummy.m */,
+				1FCC5AACFFB29FE3C0A6DE8DE45F04E0 /* Pods-SJGradientLabel_Tests-frameworks.sh */,
+				0F00781AEF2C789B4387E423E7F977E2 /* Pods-SJGradientLabel_Tests-resources.sh */,
+				E86D0EDEBE4B3454991CB4AE42B66079 /* Pods-SJGradientLabel_Tests-umbrella.h */,
+				5779D69A9897C9E24D431DE07B044881 /* Pods-SJGradientLabel_Tests.debug.xcconfig */,
+				89C3913B69F2B26189B0088970C4E4E2 /* Pods-SJGradientLabel_Tests.release.xcconfig */,
+			);
+			name = "Pods-SJGradientLabel_Tests";
+			path = "Target Support Files/Pods-SJGradientLabel_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F95B77FA27D2968F1162E1565B365E97 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5F4BFCF75BCCFDE9C869E53BFE64C7BF /* Products */,
+				6035E816C75427E7AF1AC67547E7748F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEDD4DF8E6EB99731599AAF3EF921E45 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F5DC0E8B195ECB5AEB6D37B17423324 /* Info.plist */,
+				6DCAE133099D5ACB9DBD10960A22BD7A /* SJGradientLabel.modulemap */,
+				075ACC5485DE19008B93BC01BFDCB4F1 /* SJGradientLabel.xcconfig */,
+				7870C812B7BB9418471329F5C7420D97 /* SJGradientLabel-dummy.m */,
+				2D390E8F543ADD9CCE2606F0E1717415 /* SJGradientLabel-prefix.pch */,
+				3C4AEF786B77779EEE25ED592A970FC0 /* SJGradientLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SJGradientLabel";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F95B77FA27D2968F1162E1565B365E97 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				604FEFA079DAA5F556447563B94335CA /* SJGradientLabel */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		816B88B5F8328FE0E43A7A546CC4A917 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B6B7105D7E0DD4ACB603405B8DFB46 /* SJGradientLabel-umbrella.h in Headers */,
+				E5B31C2C39D50241F395240F9FEAA5C8 /* SJGradientLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF7F962EF42E0FDBBA33F4543BC7A607 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17704B2B88228BB3E54A38248C728AB7 /* Pods-SJGradientLabel_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9572A24AAA06F080A50636B6707233 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B4CA5B8B44D0A4F2B5024EB5502638A /* Pods-SJGradientLabel_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15E0D701A9334186A6D422269B8AAA27 /* Pods-SJGradientLabel_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555FBE71BFBD2DB5D499C97B34A3F7F7 /* Build configuration list for PBXNativeTarget "Pods-SJGradientLabel_Tests" */;
+			buildPhases = (
+				B06E2365445E961A8D356827AEE3718D /* Sources */,
+				02622A896B1AEEBE2D5B40A146715A82 /* Frameworks */,
+				EE9572A24AAA06F080A50636B6707233 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40686A36A6F8AB20F62B11CA66AE1C48 /* PBXTargetDependency */,
+			);
+			name = "Pods-SJGradientLabel_Tests";
+			productName = "Pods-SJGradientLabel_Tests";
+			productReference = 6959544495B14C4D943D7B2A364DB7D6 /* Pods_SJGradientLabel_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		63FACC05ACB73EBA4E9781B9F4DA1077 /* Pods-SJGradientLabel_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F5A98482A1D867F7A9D84A7F28D7CB8 /* Build configuration list for PBXNativeTarget "Pods-SJGradientLabel_Example" */;
+			buildPhases = (
+				B80FA08DF252399BAAB3E80171046BB7 /* Sources */,
+				B3AD4292FDEDEF051F2591A37F00CA13 /* Frameworks */,
+				BF7F962EF42E0FDBBA33F4543BC7A607 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8963411D888FD58015BA45E04AD418F6 /* PBXTargetDependency */,
+			);
+			name = "Pods-SJGradientLabel_Example";
+			productName = "Pods-SJGradientLabel_Example";
+			productReference = DA8B864C1C50C6B21365FF030AAC85CF /* Pods_SJGradientLabel_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE0FEEF213C8C835A17C5EA56D9A3978 /* SJGradientLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12B42CA8624CED4FC09094BE65EACEB5 /* Build configuration list for PBXNativeTarget "SJGradientLabel" */;
+			buildPhases = (
+				51B0DD479C346B1708CDF75310C7795A /* Sources */,
+				A4C590826BF7EA7AC29B0CC2AB2D59B5 /* Frameworks */,
+				816B88B5F8328FE0E43A7A546CC4A917 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SJGradientLabel;
+			productName = SJGradientLabel;
+			productReference = 6659FBF1A89FD49D3E91B34587086D0E /* SJGradientLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5F4BFCF75BCCFDE9C869E53BFE64C7BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63FACC05ACB73EBA4E9781B9F4DA1077 /* Pods-SJGradientLabel_Example */,
+				15E0D701A9334186A6D422269B8AAA27 /* Pods-SJGradientLabel_Tests */,
+				BE0FEEF213C8C835A17C5EA56D9A3978 /* SJGradientLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51B0DD479C346B1708CDF75310C7795A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761A6EEE244B9F7C64B30F51E3D4354C /* SJGradientLabel-dummy.m in Sources */,
+				500EA30BFBC4914E2279F4F20F5D1D79 /* SJGradientLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06E2365445E961A8D356827AEE3718D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60180A3178D0527E0A8BB33A6BA1B4E9 /* Pods-SJGradientLabel_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B80FA08DF252399BAAB3E80171046BB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DEEFF4EDFCAB2E386616CEBA36D0C9 /* Pods-SJGradientLabel_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40686A36A6F8AB20F62B11CA66AE1C48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SJGradientLabel_Example";
+			target = 63FACC05ACB73EBA4E9781B9F4DA1077 /* Pods-SJGradientLabel_Example */;
+			targetProxy = 63C3211B9364EE7851B4877DD5082EB0 /* PBXContainerItemProxy */;
+		};
+		8963411D888FD58015BA45E04AD418F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SJGradientLabel;
+			target = BE0FEEF213C8C835A17C5EA56D9A3978 /* SJGradientLabel */;
+			targetProxy = 69F2B65E922A5CF7035AA6CA04B888DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E4C121CC0F009522551FB913C02A8B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 075ACC5485DE19008B93BC01BFDCB4F1 /* SJGradientLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SJGradientLabel/SJGradientLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SJGradientLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SJGradientLabel/SJGradientLabel.modulemap";
+				PRODUCT_MODULE_NAME = SJGradientLabel;
+				PRODUCT_NAME = SJGradientLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		273085C60FA082E15C9E40668BB251CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 075ACC5485DE19008B93BC01BFDCB4F1 /* SJGradientLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SJGradientLabel/SJGradientLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SJGradientLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SJGradientLabel/SJGradientLabel.modulemap";
+				PRODUCT_MODULE_NAME = SJGradientLabel;
+				PRODUCT_NAME = SJGradientLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5DD2D1AD3901B6ABB5E27AD847B32769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CDDDFD8DF488D0814F9A8C1E732B071 /* Pods-SJGradientLabel_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SJGradientLabel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SJGradientLabel_Example/Pods-SJGradientLabel_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84D7C1A75593279BF6AE3A93C0572C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C3913B69F2B26189B0088970C4E4E2 /* Pods-SJGradientLabel_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SJGradientLabel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SJGradientLabel_Tests/Pods-SJGradientLabel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		963ECC8249DCE187669D598C24D4F288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26B45B23C8662652C972283C29E9B106 /* Pods-SJGradientLabel_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SJGradientLabel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SJGradientLabel_Example/Pods-SJGradientLabel_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE800A53EC3C9656B86973F1CC3AA602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5779D69A9897C9E24D431DE07B044881 /* Pods-SJGradientLabel_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SJGradientLabel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SJGradientLabel_Tests/Pods-SJGradientLabel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12B42CA8624CED4FC09094BE65EACEB5 /* Build configuration list for PBXNativeTarget "SJGradientLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E4C121CC0F009522551FB913C02A8B6 /* Debug */,
+				273085C60FA082E15C9E40668BB251CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555FBE71BFBD2DB5D499C97B34A3F7F7 /* Build configuration list for PBXNativeTarget "Pods-SJGradientLabel_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE800A53EC3C9656B86973F1CC3AA602 /* Debug */,
+				84D7C1A75593279BF6AE3A93C0572C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F5A98482A1D867F7A9D84A7F28D7CB8 /* Build configuration list for PBXNativeTarget "Pods-SJGradientLabel_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DD2D1AD3901B6ABB5E27AD847B32769 /* Debug */,
+				963ECC8249DCE187669D598C24D4F288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

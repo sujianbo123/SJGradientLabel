@@ -1,0 +1,11 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'SJGradientLabel_Example' do
+  pod 'SJGradientLabel', :path => '../'
+
+  target 'SJGradientLabel_Tests' do
+    inherit! :search_paths
+  end
+end

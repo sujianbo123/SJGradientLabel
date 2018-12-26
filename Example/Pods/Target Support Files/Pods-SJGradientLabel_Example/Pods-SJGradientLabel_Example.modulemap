@@ -1,0 +1,6 @@
+framework module Pods_SJGradientLabel_Example {
+  umbrella header "Pods-SJGradientLabel_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
