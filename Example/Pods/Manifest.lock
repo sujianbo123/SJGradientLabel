@@ -1,0 +1,16 @@
+PODS:
+  - SJGradientLabel (0.1.0)
+
+DEPENDENCIES:
+  - SJGradientLabel (from `../`)
+
+EXTERNAL SOURCES:
+  SJGradientLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SJGradientLabel: db64a0e32d7d5c8f70b946f84be1233f1ee1e7a1
+
+PODFILE CHECKSUM: f44ac951b657f8e5e39025187d88fa3823e2de19
+
+COCOAPODS: 1.5.0
