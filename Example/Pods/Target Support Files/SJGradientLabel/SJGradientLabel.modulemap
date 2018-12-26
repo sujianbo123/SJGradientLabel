@@ -1,6 +1,0 @@
-framework module SJGradientLabel {
-  umbrella header "SJGradientLabel-umbrella.h"
-
-  export *
-  module * { export * }
-}
